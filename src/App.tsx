@@ -180,15 +180,6 @@ export default function App() {
               >
                 librehub.gr
               </a>
-
-              <a
-                href="https://ellak.gr"
-                target="_blank"
-                rel="noreferrer"
-                className="hidden lg:flex items-center gap-1 text-xs text-gray-400 hover:text-green-400 transition-colors"
-              >
-                ΕΕΛΛΑΚ
-              </a>
             </div>
           </div>
         </div>
@@ -351,9 +342,6 @@ export default function App() {
             </a>
             <a href="https://iosifidis.github.io/librehub.gr/" target="_blank" rel="noreferrer" className="hover:text-green-400 transition-colors">
               librehub.gr
-            </a>
-            <a href="https://ellak.gr" target="_blank" rel="noreferrer" className="hover:text-green-400 transition-colors">
-              ΕΕΛΛΑΚ
             </a>
           </div>
         </div>
