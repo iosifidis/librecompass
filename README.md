@@ -1,79 +1,76 @@
-# Μάθε ΕΛ/ΛΑΚ
+# LibreCompass 🧭
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-mathe--ellak.netlify.app-35b9ab?style=for-the-badge)](https://mathe-ellak.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-librecompass.netlify.app-22c55e?style=for-the-badge)](https://librecompass.netlify.app/)
+[![LibreHub](https://img.shields.io/badge/Search_Engine-librehub.netlify.app-16a34a?style=for-the-badge)](https://librehub.netlify.app/)
 
-«Ανακάλυψε τον κόσμο του Ανοιχτού Λογισμικού»
+> **«Βρες το κατάλληλο εργαλείο σε 3 βήματα»**  
+> Ο διαδραστικός οδηγός ανακάλυψης ελεύθερου και ανοικτού λογισμικού του οικοσυστήματος **LibreHub**.
 
-Live Demo: [https://iosifidis.github.io/mathe-ellak/](https://iosifidis.github.io/mathe-ellak/) και [https://mathe-ellak.netlify.app/](https://mathe-ellak.netlify.app/)
+**Live Demo:** [https://librecompass.netlify.app/](https://librecompass.netlify.app/) & [https://iosifidis.github.io/librecompass/](https://iosifidis.github.io/librecompass/)  
+**Μηχανή Αναζήτησης:** [https://librehub.netlify.app/](https://librehub.netlify.app/) (ή [librehub.gr](https://iosifidis.github.io/librehub.gr/))
 
-![Μάθε ΕΛΛΑΚ](./mathe-screenshot.png)
+---
 
-Το **Μάθε ΕΛ/ΛΑΚ** είναι μια διαδραστική διαδικτυακή εφαρμογή του Οργανισμού Ανοιχτών Τεχνολογιών (ΕΕΛΛΑΚ) που βοηθάει τους χρήστες να βρουν το κατάλληλο Ελεύθερο Λογισμικό / Λογισμικό Ανοικτού Κώδικα (ΕΛ/ΛΑΚ) για τις ανάγκες τους (Καθημερινή Χρήση, Επαγγελματικά, Εκπαίδευση, Δημόσιο) με μόλις 3 βήματα.
+## Τι είναι το LibreCompass;
+
+Το **LibreCompass** είναι μια σύγχρονη, διαδραστική διαδικτυακή εφαρμογή καθοδήγησης (decision guide / wizard). Βοηθά τους χρήστες (καθημερινούς χρήστες, επιχειρήσεις, φοιτητές/εκπαιδευτικούς, δημόσιους φορείς) να ανακαλύψουν αξιόπιστες εναλλακτικές λύσεις Ελεύθερου Λογισμικού / Λογισμικού Ανοικτού Κώδικα (FOSS) για τα εμπορικά προγράμματα που χρησιμοποιούν καθημερινά.
+
+Συνδέεται άμεσα με το **LibreHub** (τη μηχανή αναζήτησης ανοικτού κώδικα), προσφέροντας την ιδανική «πυξίδα» για όσους θέλουν να εξερευνήσουν εργαλεία βήμα-βήμα χωρίς απαραίτητα να γνωρίζουν εκ των προτέρων ποιο λογισμικό αναζητούν.
 
 ## Χαρακτηριστικά
 
-- **Διαδραστική Εξερεύνηση:** Βρείτε λογισμικό ανά κατηγορία με τη μορφή quiz/σεναρίων.
-- **Εμπορικά Αντίστοιχα:** Κάθε προτεινόμενο εργαλείο ΕΛ/ΛΑΚ αναφέρει ξεκάθαρα ποιο διαδεδομένο εμπορικό λογισμικό αντικαθιστά.
-- **Γρήγορα & Σίγουρα Αποτελέσματα:** Eager loading των δεδομένων εφαρμογής.
-- **Μοντέρνος Σχεδιασμός:** Κατασκευασμένο με React, Vite, Tailwind CSS 4+ και Framer Motion.
+- 🧭 **Καθοδηγούμενη Ανακάλυψη σε 3 Βήματα:** Επιλογή Τομέα Χρήσης → Κατηγορία Εργαλείου → Προτεινόμενο Ανοικτό Λογισμικό.
+- 🔄 **Εμπορικά Αντίστοιχα:** Κάθε κάρτα αναφέρει ρητά ποιο κλειστό/ιδιόκτητο πρόγραμμα αντικαθιστά (π.χ. *Office*, *Photoshop*, *Acrobat* κ.λπ.).
+- ⚡ **Αστραπιαία Απόκριση:** Eager loading των κατηγοριών και άμεση πλοήγηση χωρίς καθυστερήσεις.
+- 🎨 **Σύγχρονο UI/UX:** Σχεδιασμένο με Tailwind CSS, Framer Motion animations και dark aesthetic συμβατή με το LibreHub.
+- 🔗 **Διασύνδεση με το LibreHub:** Άμεση πρόσβαση στη μηχανή αναζήτησης για απευθείας αναζητήσεις.
 
 ## Τεχνολογίες
 
 - [React 19](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite 6](https://vitejs.dev/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Lucide React](https://lucide.dev/) (Icons)
 
-## Τοπική Εκτέλεση Περιβάλλοντος
+## Τοπική Εκτέλεση (Development)
 
-**Προαπαιτούμενα:** [Node.js](https://nodejs.org/) (προτείνεται η τελευταία LTS έκδοση)
+**Προαπαιτούμενα:** [Node.js](https://nodejs.org/) (v18+)
 
-1. Κλωνοποιήστε το αποθετήριο:
+1. Κλωνοποίηση του αποθετηρίου:
    ```bash
-   git clone https://github.com/iosifidis/mathe-ellak.git
-   cd mathe-ellak
+   git clone https://github.com/iosifidis/librecompass.git
+   cd librecompass
    ```
 
-2. Εγκαταστήστε τις βιβλιοθήκες/εξαρτήσεις:
+2. Εγκατάσταση εξαρτήσεων:
    ```bash
    npm install
    ```
 
-3. Εκκινήστε τον server ανάπτυξης (development server):
+3. Εκκίνηση του development server:
    ```bash
    npm run dev
    ```
 
-Η εφαρμογή θα ξεκινήσει τοπικά, συνήθως στο `http://localhost:3000`.
-
-## Build με Docker
-
-Για να χτίσετε και να τρέξετε την εφαρμογή ως container χρησιμοποιώντας το παρεχόμενο `Dockerfile`:
-
-1.  **Build** της εικόνας:
-    ```bash
-    docker build -t mathe-ellak .
-    ```
-
-2.  **Run** το container:
-    ```bash
-    docker run -p 8080:80 mathe-ellak
-    ```
-
-Μετά την εκτέλεση, η εφαρμογή θα είναι διαθέσιμη στο `http://localhost:8080`.
-Αν επιθυμείτε να χτίσετε την εφαρμογή για διαφορετικό base URL (όπως π.χ. στο GitHub Pages), μπορείτε να χρησιμοποιήσετε την παράμετρο `VITE_BASE`:
-```bash
-docker build --build-arg VITE_BASE=/custom-base/ -t mathe-ellak-custom .
-```
+Η εφαρμογή θα είναι διαθέσιμη στο `http://localhost:3000`.
 
 ## Scripts
 
-- `npm run dev` - Εκκίνηση της εφαρμογής σε περιβάλλον ανάπτυξης.
-- `npm run build` - Δημιουργία production-ready φακέλου `dist`.
-- `npm run preview` - Τοπική δοκιμή του built project.
-- `npm run lint` - Έλεγχος TypeScript (μέσω `tsc --noEmit`).
+- `npm run dev`: Εκκίνηση τοπικού dev server.
+- `npm run build`: Παραγωγή του production bundle στον φάκελο `dist`.
+- `npm run preview`: Προεπισκόπηση του built project.
+- `npm run lint`: Έλεγχος σφαλμάτων TypeScript (`tsc --noEmit`).
 
-## Πνευματικά Δικαιώματα
+## Docker
 
-© 2026 Οργανισμός Ανοιχτών Τεχνολογιών - ΕΕΛΛΑΚ.
+Build και εκτέλεση με Docker:
+```bash
+docker build -t librecompass .
+docker run -p 8080:80 librecompass
+```
+
+## Πνευματικά Δικαιώματα & Συνεργασίες
+
+Μέρος του οικοσυστήματος **LibreHub** • Σε συνεργασία με τον **Οργανισμό Ανοιχτών Τεχνολογιών (ΕΕΛΛΑΚ)**.

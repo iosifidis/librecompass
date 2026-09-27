@@ -8,7 +8,7 @@
 }
 
 body {
-  @apply bg-[#212529] text-white font-sans antialiased;
+  @apply bg-[#030712] text-gray-100 font-sans antialiased selection:bg-green-600 selection:text-white;
 }
 
 .btn-bootstrap-green {

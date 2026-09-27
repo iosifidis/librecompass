@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
 
   if (process.env.GITHUB_ACTIONS) {
     // Default GitHub Pages base (repository name)
-    base = '/mathe-ellak/';
+    base = '/librecompass/';
   }
 
   // Allow explicit override (e.g., from Docker ARG)
