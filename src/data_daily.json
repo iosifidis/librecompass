@@ -101,6 +101,20 @@
                 "description": "Μια πλατφόρμα εργασίας που συνδυάζει σημειώσεις, έγγραφα και λευκοπίνακες σε ένα ενιαίο περιβάλλον δημιουργικότητας.",
                 "commercial_equivalent": "Notion, Miro",
                 "url": "https://affine.pro/"
+            },
+            {
+                "id": "evince-daily",
+                "title": "Evince",
+                "description": "Ελαφρύς και ισχυρός αναγνώστης εγγράφων για το GNOME περιβάλλον — υποστηρίζει PDF, PostScript, DjVu, TIFF, DVI, XPS, Comic Books (.cbr/.cbz) και άλλα formats σε μία εφαρμογή. Γρήγορος, ασφαλής (sandbox) και ενσωματωμένος στο GNOME.",
+                "commercial_equivalent": "Adobe Acrobat Reader",
+                "url": "https://wiki.gnome.org/Apps/Evince"
+            },
+            {
+                "id": "okular-daily",
+                "title": "Okular",
+                "description": "Ένας ελαφρύς, ταχύτατος και πλήρης αναγνώστης αρχείων PDF (και άλλων μορφών) για το περιβάλλον εργασίας KDE (αλλά λειτουργεί και σε GNOME, Windows, macOS). Υποστηρίζει PDF, EPUB, CHM, Comic Books (CBR/CBZ), DjVu, Markdown, κ.ά. Διαθέτει προηγμένες λειτουργίες σχολιασμού (highlight, underline, σημειώσεις, σχήματα, ελεύθερο σχέδιο), φόρμες, ψηφιακές υπογραφές, και επιλογή αντιγραφής κειμένου/εικόνων. Είναι πλουσιότερο από το Papers (GNOME) αλλά ελαφρύτερο από το Adobe Acrobat.",
+                "commercial_equivalent": "Adobe Acrobat Reader, Papers (GNOME), Evince (GNOME)",
+                "url": "https://okular.kde.org/"
             }
         ]
     },
@@ -143,6 +157,13 @@
                 "description": "Ένας δωρεάν και open-source επεξεργαστής για τη δημιουργία επαγγελματικών υπογραφών email (signatures).",
                 "commercial_equivalent": "HubSpot Signature Generator, WiseStamp",
                 "url": "https://github.com/antonreshetov/mysigmail"
+            },
+            {
+                "id": "icedove-daily",
+                "title": "Icedove",
+                "description": "Το Icedove είναι το επίσημο όνομα του Mozilla Thunderbird στο Debian GNU/Linux — ταυτόσημο λογισμικό, διαφορετικό branding για συμμόρφωση με τις πολιτικές ελεύθερου λογισμικού του Debian. Προσφέρει όλες τις δυνατότητες του Thunderbird: email, RSS, calendar, task management και OpenPGP κρυπτογράφηση.",
+                "commercial_equivalent": "Microsoft Outlook",
+                "url": "https://www.thunderbird.net/"
             }
         ]
     },
@@ -339,6 +360,62 @@
                 "description": "Ένας web proxy με προηγμένες δυνατότητες φιλτραρίσματος για την προστασία της ιδιωτικότητας, την τροποποίηση δεδομένων ιστοσελίδων και τη διαχείριση cookies.",
                 "commercial_equivalent": "Ad-blocking Proxy Servers",
                 "url": "https://www.privoxy.org/"
+            },
+            {
+                "id": "searxng-daily",
+                "title": "SearXNG",
+                "description": "Ανοιχτού κώδικα μηχανή μετα-αναζήτησης που συγκεντρώνει αποτελέσματα από δεκάδες πηγές (Google, Bing, DuckDuckGo, Wikipedia κ.ά.) χωρίς να αποθηκεύει δεδομένα χρήστη. Self-hosted ή μέσω δημόσιων instances — μηδενική παρακολούθηση, μηδενικό profiling.",
+                "commercial_equivalent": "Google Search, Bing",
+                "url": "https://searxng.org/"
+            },
+            {
+                "id": "startpage-daily",
+                "title": "Startpage",
+                "description": "Μηχανή αναζήτησης με έμφαση στην ιδιωτικότητα που χρησιμοποιεί αποτελέσματα Google χωρίς να μεταδίδει στην Google τα δεδομένα του χρήστη. Λειτουργεί ως ανώνυμος μεσολαβητής — λαμβάνετε τα αποτελέσματα της Google χωρίς να σας παρακολουθεί η ίδια.",
+                "commercial_equivalent": "Google Search, Bing",
+                "url": "https://www.startpage.com/"
+            },
+            {
+                "id": "gnu-icecat-daily",
+                "title": "GNU IceCat",
+                "description": "Η επίσημη GNU έκδοση του Firefox — αφαιρεί κάθε μη-ελεύθερο στοιχείο του Firefox (DRM, telemetry, proprietary codecs) και προσθέτει προεγκατεστημένα εργαλεία ιδιωτικότητας. Αποτελεί μέρος του GNU project και αναπτύσσεται με αυστηρή τήρηση των αρχών ελεύθερου λογισμικού.",
+                "commercial_equivalent": "Google Chrome, Microsoft Edge",
+                "url": "https://www.gnu.org/software/gnuzilla/"
+            },
+            {
+                "id": "telegram-daily",
+                "title": "Telegram Desktop",
+                "description": "Δημοφιλής εφαρμογή μηνυμάτων με ανοιχτού κώδικα clients (Android, iOS, desktop) που υποστηρίζει κρυπτογραφημένα μηνύματα, ομάδες έως 200.000 μέλη, channels, bots, αρχεία έως 2GB και Secret Chats με end-to-end κρυπτογράφηση. Ο server κώδικας παραμένει κλειστός.",
+                "commercial_equivalent": "WhatsApp, Facebook Messenger, Viber",
+                "url": "https://telegram.org/"
+            },
+            {
+                "id": "empathy-daily",
+                "title": "Empathy",
+                "description": "Πρόγραμμα άμεσων μηνυμάτων του GNOME που υποστηρίζει κείμενο, φωνή και βίντεο μέσω πολλαπλών πρωτοκόλλων (XMPP/Jabber, SIP, IRC). Βασισμένο στο Telepathy framework για ενοποιημένη επικοινωνία στο GNOME περιβάλλον.",
+                "commercial_equivalent": "Facebook Messenger, Skype",
+                "url": "https://wiki.gnome.org/Attic/Empathy"
+            },
+            {
+                "id": "i2p-daily",
+                "title": "I2P (Invisible Internet Project)",
+                "description": "Ανώνυμο overlay δίκτυο (Invisible Internet Project) για ανώνυμη επικοινωνία και υπηρεσίες. Σε αντίθεση με το Tor (που εστιάζει στην ανώνυμη πρόσβαση στο κανονικό internet), το I2P είναι σχεδιασμένο για εσωτερικές υπηρεσίες (hidden services) — email, web, torrents — αποκλειστικά μέσα στο I2P δίκτυο.",
+                "commercial_equivalent": "Tor, VPN Services",
+                "url": "https://geti2p.net/"
+            },
+            {
+                "id": "kopete-daily",
+                "title": "Kopete",
+                "description": "Πρόγραμμα άμεσων μηνυμάτων για το KDE περιβάλλον με υποστήριξη πολλαπλών πρωτοκόλλων μέσω plugin αρχιτεκτονικής. Υποστηρίζει XMPP/Jabber, IRC, Bonjour και άλλα πρωτόκολλα — αποτελεί το KDE ισοδύναμο του GNOME Empathy.",
+                "commercial_equivalent": "Facebook Messenger, Skype",
+                "url": "https://apps.kde.org/kopete/"
+            },
+            {
+                "id": "noscript-daily",
+                "title": "NoScript",
+                "description": "Επέκταση περιηγητή που επιτρέπει εκτέλεση JavaScript, Java, Flash και άλλων εκτελέσιμων μόνο από ιστότοπους που εμπιστεύεστε. Προστατεύει από XSS attacks, Clickjacking, Cross-Site Request Forgery και drive-by malware — αποτελεί βασική επέκταση του Tor Browser.",
+                "commercial_equivalent": "In-browser Security Features",
+                "url": "https://noscript.net/"
             }
         ]
     },
@@ -423,6 +500,27 @@
                 "description": "Εξειδικευμένο εργαλείο ελέγχου ασφαλείας και σκλήρυνσης (hardening) συστημάτων Linux/Unix.",
                 "commercial_equivalent": "McAfee VirusScan",
                 "url": "https://cisofy.com/lynis/"
+            },
+            {
+                "id": "ufw-daily",
+                "title": "UFW Firewall",
+                "description": "Απλοποιημένο frontend για τη ρύθμιση του iptables firewall σε Linux. Σχεδιασμένο για χρήση από αρχάριους και προχωρημένους χρήστες — απλές εντολές αντικαθιστούν σύνθετους κανόνες iptables. Προεγκατεστημένο στο Ubuntu και ιδανικό για γρήγορη ασφάλιση Linux servers.",
+                "commercial_equivalent": "Windows Firewall, Hardware Firewalls",
+                "url": "https://launchpad.net/ufw"
+            },
+            {
+                "id": "enigmail-daily",
+                "title": "Enigmail",
+                "description": "Πρόσθετο κρυπτογράφησης OpenPGP για το Mozilla Thunderbird που έφερε την κρυπτογραφία email στις μάζες. Από την έκδοση Thunderbird 78 (2020), η λειτουργικότητα του Enigmail ενσωματώθηκε πλήρως στον Thunderbird — το Enigmail δεν απαιτείται πλέον ως ξεχωριστό plugin.",
+                "commercial_equivalent": "PGP Email Encryption",
+                "url": "https://enigmail.net/"
+            },
+            {
+                "id": "pybitmessage-daily",
+                "title": "PyBitmessage",
+                "description": "Client για το αποκεντρωμένο P2P δίκτυο Bitmessage — σύστημα κρυπτογραφημένης αλληλογραφίας που μοιάζει με email αλλά λειτουργεί χωρίς κεντρικούς servers. Χρησιμοποιεί proof-of-work για αποτροπή spam και strong κρυπτογράφηση για κάθε μήνυμα.",
+                "commercial_equivalent": "Email, Encrypted Messaging",
+                "url": "https://bitmessage.org/"
             }
         ]
     },
@@ -479,6 +577,20 @@
                 "description": "Μια από τις πιο δημοφιλείς self-hosted εφαρμογές για την αποθήκευση, αρχειοθέτηση και διαμοιρασμό άρθρων για μετέπειτα ανάγνωση.",
                 "commercial_equivalent": "Pocket, Instapaper",
                 "url": "https://wallabag.org/"
+            },
+            {
+                "id": "wordpress-daily",
+                "title": "WordPress",
+                "description": "Το πιο δημοφιλές Σύστημα Διαχείρισης Περιεχομένου (CMS) παγκοσμίως — τροφοδοτεί το 43% του internet. Δημιουργία ιστοτόπων, blogs, e-shops και web εφαρμογών με χιλιάδες themes και 60.000+ plugins. Πλήρως ανοιχτού κώδικα, self-hosted στο wordpress.org (διαφορετικό από το εμπορικό wordpress.com).",
+                "commercial_equivalent": "Squarespace, Wix, Webflow",
+                "url": "https://wordpress.org/"
+            },
+            {
+                "id": "mediagoblin-daily",
+                "title": "MediaGoblin",
+                "description": "Self-hosted πλατφόρμα του GNU Project για διαμοιρασμό πολυμέσων (φωτογραφίες, βίντεο, ήχος).",
+                "commercial_equivalent": "YouTube, Flickr, SoundCloud",
+                "url": "https://mediagoblin.org/"
             }
         ]
     },
@@ -647,6 +759,20 @@
                 "description": "Λογισμικό ανοικτού κώδικα για την καταγραφή της δραστηριότητας στην οθόνη του υπολογιστή και τη δημιουργία αρχείων βίντεο για παρουσιάσεις και webinars.",
                 "commercial_equivalent": "Camtasia",
                 "url": "https://www.webinaria.com/index.php"
+            },
+            {
+                "id": "obs-studio-daily",
+                "title": "OBS Studio",
+                "description": "Η κορυφαία, ελεύθερη και ανοιχτού κώδικα εφαρμογή για εγγραφή βίντεο και live streaming σε πλατφόρμες (Twitch, YouTube, Facebook Live, κ.ά.). Υποστηρίζει σύνθετες σκηνές με πολλαπλές πηγές (παράθυρο, οθόνη, κάμερα, κάρτα захвата, browser, κείμενο, εικόνα, εικόνα σε εικόνα), mixing ήχου (filters, VST plugins), και προσαρμογή μέσω plugins (Lua/Python).",
+                "commercial_equivalent": "Camtasia, Bandicam, XSplit, Wirecast, Streamlabs Desktop",
+                "url": "https://obsproject.com"
+            },
+            {
+                "id": "camstudio-daily",
+                "title": "CamStudio",
+                "description": "Ελαφρύ λογισμικό καταγραφής οθόνης (screen recorder) για Windows, που παράγει βίντεο σε μορφή AVI (με διάφορους codec) ή SWF (Flash). Είναι κατάλληλο για δημιουργία εκπαιδευτικών βίντεο, demos, tutorials, με δυνατότητα καταγραφής ήχου (από μικρόφωνο ή ηχεία) και annotations.",
+                "commercial_equivalent": "TechSmith Camtasia (commercial, full video editor), ShareX (basic recording)",
+                "url": "https://camstudio.org/"
             }
         ]
     },
@@ -731,6 +857,13 @@
                 "description": "Ένας προηγμένος αναπαραγωγέας ήχου που εστιάζει στη χαμηλή χρήση πόρων και την υψηλή ποιότητα ήχου, υποστηρίζοντας skins τύπου Winamp.",
                 "commercial_equivalent": "Winamp",
                 "url": "https://audacious-media-player.org/"
+            },
+            {
+                "id": "qtractor-daily",
+                "title": "Qtractor",
+                "description": "Επαγγελματικός Digital Audio Workstation (DAW) για Linux βασισμένος στο Qt, με multi-track audio/MIDI recording, editing και mixing. Υποστηρίζει JACK audio, LV2/LADSPA/VST plugins, MIDI sequencing, non-destructive editing και ισχυρό automation — ιδανικός για μουσική παραγωγή σε Linux.",
+                "commercial_equivalent": "Adobe Audition, Apple Logic Pro, FL Studio",
+                "url": "https://qtractor.org/"
             }
         ]
     },
@@ -766,6 +899,13 @@
                 "description": "Μετατρέπει τις παρουσιάσεις σας σε μια διαδραστική και ελκυστική εμπειρία για το κοινό σας.",
                 "commercial_equivalent": "Mentimeter, Slido",
                 "url": "https://claper.co/"
+            },
+            {
+                "id": "rhythmbox-daily",
+                "title": "Rhythmbox",
+                "description": "Ολοκληρωμένος αναπαραγωγέας μουσικής και podcast manager για το GNOME περιβάλλον. Οργανώνει μουσική βιβλιοθήκη, υποστηρίζει internet radio, Last.fm scrobbling, podcast management, iPod sync και Daap sharing — με καθαρή διεπαφή και εκτεταμένο σύστημα plugins.",
+                "commercial_equivalent": "Apple iTunes, Windows Media Player",
+                "url": "https://wiki.gnome.org/Apps/Rhythmbox"
             }
         ]
     },
@@ -829,6 +969,27 @@
                 "description": "Φορητό λειτουργικό σύστημα που τρέχει από USB. Δεν αφήνει κανένα ίχνος στον υπολογιστή και χρησιμοποιείται για ευαίσθητες πληροφορίες.",
                 "commercial_equivalent": "Κανένα (Εξειδικευμένο για ασφάλεια/ανωνυμία)",
                 "url": "https://tails.net/"
+            },
+            {
+                "id": "arch-linux-daily",
+                "title": "Arch Linux",
+                "description": "Rolling release διανομή Linux για προχωρημένους χρήστες, βασισμένη στη φιλοσοφία KISS (Keep It Simple, Stupid). Εγκαθίσταται χωρίς γραφικό περιβάλλον — ο χρήστης χτίζει το σύστημά του από το μηδέν. Προσφέρει πάντα το τελευταίο λογισμικό μέσω rolling release και τον AUR (Arch User Repository) με χιλιάδες πακέτα.",
+                "commercial_equivalent": "Microsoft Windows, macOS",
+                "url": "https://archlinux.org/"
+            },
+            {
+                "id": "zorin-os-daily",
+                "title": "Zorin OS",
+                "description": "Διανομή Linux σχεδιασμένη ειδικά για χρήστες που μεταβαίνουν από Windows ή macOS — με layouts που μιμούνται την εμφάνιση των αντίστοιχων λειτουργικών. Η Pro έκδοση περιλαμβάνει επιπλέον layouts και εφαρμογές, ενώ η Core έκδοση είναι εντελώς δωρεάν και βασισμένη στο Ubuntu LTS.",
+                "commercial_equivalent": "Microsoft Windows, macOS",
+                "url": "https://zorin.com/os/"
+            },
+            {
+                "id": "bodhi-linux-daily",
+                "title": "Bodhi Linux",
+                "description": "Ελαφριά διανομή Linux βασισμένη στο Ubuntu LTS, με το μοναδικό γραφικό περιβάλλον Moksha (fork του Enlightenment). Γνωστή για την εξαιρετικά χαμηλή κατανάλωση πόρων, την ασυνήθιστη αισθητική και την ικανότητά της να τρέχει σε πολύ παλαιό υλικό — ακόμα και σε υπολογιστές με 256MB RAM.",
+                "commercial_equivalent": "Microsoft Windows, macOS",
+                "url": "https://www.bodhilinux.com/"
             }
         ]
     },
@@ -885,6 +1046,13 @@
                 "description": "Εργαλεία για την ανάκτηση χαμένων δεδομένων και την επιδιόρθωση πινάκων κατατμήσεων.",
                 "commercial_equivalent": "Εξειδικευμένο λογισμικό ανάκτησης",
                 "url": "https://www.cgsecurity.org/"
+            },
+            {
+                "id": "partimage-daily",
+                "title": "PartImage",
+                "description": "Εργαλείο δημιουργίας αντιγράφων ασφαλείας κατατμήσεων δίσκου και ανάκτησης δεδομένων για Linux. Αποθηκεύει μόνο τα χρησιμοποιούμενα blocks (όχι ολόκληρο τον δίσκο), με compression και δυνατότητα αποθήκευσης σε τοπικό δίσκο, NFS ή SMB share.",
+                "commercial_equivalent": "Norton Ghost",
+                "url": "https://www.partimage.org/"
             }
         ]
     },

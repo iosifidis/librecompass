@@ -1,421 +1,323 @@
 [
     {
-        "id": "edu-primary-games",
-        "title": "Παιχνίδια & Δημιουργικότητα για Παιδιά",
-        "description": "Εκπαιδευτικά παιχνίδια και εργαλεία ζωγραφικής για μαθητές δημοτικού.",
+        "id": "gov-office-documents",
+        "title": "Σουίτες Γραφείου & Διαχείριση Εγγράφων",
+        "description": "Διαλειτουργικές σουίτες για επεξεργασία κειμένων, υπολογιστικών φύλλων και αρχείων PDF.",
         "subcategories": [
             {
-                "id": "gcompris-edu",
-                "title": "GCompris",
-                "description": "Εκπαιδευτικά παιχνίδια για παιδιά 2-10 ετών.",
-                "commercial_equivalent": "ABCmouse, Khan Academy Kids",
-                "url": "https://gcompris.net"
+                "id": "libreoffice-gov",
+                "title": "LibreOffice",
+                "description": "Η πιο ισχυρή και δημοφιλής εναλλακτική σουίτα γραφείου ανοιχτού κώδικα, πλήρως συμβατή με αρχεία Microsoft Office (.docx, .xlsx, .pptx). Περιλαμβάνει εφαρμογές για επεξεργασία κειμένου (Writer), υπολογιστικά φύλλα (Calc), παρουσιάσεις (Impress), σχέδια (Draw), βάσεις δεδομένων (Base) και μαθηματικές εξισώσεις (Math). Υποστηρίζει μακροεντολές (Basic, Python, JavaScript), templates, και είναι διαθέσιμο σε Windows, macOS, Linux, καθώς και φορητή έκδοση (portable).",
+                "commercial_equivalent": "Microsoft Office",
+                "url": "https://el.libreoffice.org"
             },
             {
-                "id": "tuxpaint-edu",
-                "title": "Tux Paint",
-                "description": "Πρόγραμμα ζωγραφικής και επεξεργασίας εικόνας για παιδιά δημοτικού.",
-                "commercial_equivalent": "Kid Pix",
-                "url": "http://www.tuxpaint.org/"
+                "id": "onlyoffice-gov",
+                "title": "ONLYOFFICE",
+                "description": "Μια εξαιρετικά γρήγορη, ελαφριά (lightweight) σουίτα γραφείου, ιδανική για παλιούς υπολογιστές (low resource usage), με απόλυτη συμβατότητα σε έγγραφα, υπολογιστικά φύλλα και παρουσιάσεις. Διατίθεται τόσο ως επιτραπέζια εφαρμογή (desktop) όσο και ως online πλατφόρμα συνεργασίας (self-hosted ή cloud). Η μεγαλύτερη δύναμή της είναι η σχεδόν τέλεια συμβατότητα με αρχεία Microsoft Office (DOCX, XLSX, PPTX), καθώς χρησιμοποιεί την ίδια μηχανή απόδοσης (core rendering engine).",
+                "commercial_equivalent": "Microsoft Office, Google Workspace",
+                "url": "https://www.onlyoffice.com/"
+            },
+            {
+                "id": "papers-gov",
+                "title": "Papers",
+                "description": "Ένας ελαφρύς, γρήγορος και μοντέρνος αναγνώστης αρχείων PDF (και άλλων μορφών εγγράφων: PS, EPS, DJVU, TIFF, XPS) για το περιβάλλον επιφάνειας εργασίας GNOME. Αντικαθιστά τον παλαιότερο Evince (Document Viewer) με πιο σύγχρονη διεπαφή (GTK4, libadwaita). Υποστηρίζει αναζήτηση, markup (σημειώσεις, υπογραμμίσεις), φόρμες PDF, signatures, dark mode, και print (εκτύπωση). Είναι ειδικά σχεδιασμένο για desktop (όχι web).",
+                "commercial_equivalent": "Adobe Acrobat Reader",
+                "url": "https://apps.gnome.org/el/Papers/"
+            },
+            {
+                "id": "bentopdf-gov",
+                "title": "BentoPDF",
+                "description": "Τοπικός αναγνώστης και επεξεργαστής PDF για ασφαλή διαχείριση εγγράφων.",
+                "commercial_equivalent": "Adobe Acrobat Pro",
+                "url": "https://bentopdf.com/"
             }
         ]
     },
     {
-        "id": "edu-programming-blocks",
-        "title": "Εκμάθηση Προγραμματισμού (Block-based)",
-        "description": "Οπτικές γλώσσες προγραμματισμού για αρχάριους.",
+        "id": "gov-participation-democracy",
+        "title": "Δημόσια Διαβούλευση & Συμμετοχική Δημοκρατία",
+        "description": "Πλατφόρμες ψηφιακής συμμετοχής πολιτών, διαβουλεύσεων και συμμετοχικού προϋπολογισμού.",
         "subcategories": [
             {
-                "id": "scratch-edu",
-                "title": "Scratch",
-                "description": "Εκμάθηση προγραμματισμού μέσω οπτικών μπλοκ (block-based).",
-                "commercial_equivalent": "Code.org",
-                "url": "https://scratch.mit.edu"
-            },
-            {
-                "id": "edublocks-edu",
-                "title": "EDUBlocks",
-                "description": "Μια γλώσσα προγραμματισμού που βοηθά τους μαθητές να μεταβούν από τα blocks στον κώδικα Python.",
-                "commercial_equivalent": "MakeCode",
-                "url": "https://edublocks.org/"
-            },
-            {
-                "id": "app-inventor-edu",
-                "title": "App Inventor",
-                "description": "Οπτικό περιβάλλον για την ανάπτυξη εφαρμογών για κινητά τηλέφωνα.",
-                "commercial_equivalent": "Thunkable",
-                "url": "https://appinventor.mit.edu/"
+                "id": "decidim-gov",
+                "title": "Decidim",
+                "description": "Ανοιχτού κώδικα πλατφόρμα συμμετοχικής δημοκρατίας για δήμους, κυβερνήσεις, κόμματα και οργανισμούς. Υποστηρίζει συμμετοχικός προϋπολογισμός, δημόσιες διαβουλεύσεις, ψηφοφορίες, assemblies, initiatives και ημερολόγιο εκδηλώσεων — σε πολλές γλώσσες και με GDPR compliance.",
+                "commercial_equivalent": "CitizenLab, Bang the Table, Εξειδικευμένες Πλατφόρμες Διαβούλευσης",
+                "url": "https://decidim.org/"
             }
         ]
     },
     {
-        "id": "edu-interactive-whiteboard",
-        "title": "Διαδραστικοί Πίνακες & Δημιουργία Υλικού",
-        "description": "Εργαλεία για δασκάλους και δημιουργία διαδραστικών ασκήσεων.",
+        "id": "gov-open-data",
+        "title": "Ανοιχτά Δεδομένα & Πύλες Διαφάνειας",
+        "description": "Υποδομές δημοσίευσης και διάθεσης δημόσιων ανοιχτών δεδομένων (Open Data).",
         "subcategories": [
             {
-                "id": "openboard-edu",
-                "title": "OpenBoard",
-                "description": "Διαδραστικός πίνακας για μαθήματα και παρουσιάσεις.",
-                "commercial_equivalent": "SMART Notebook",
-                "url": "https://openboard.ch"
-            },
-            {
-                "id": "h5p-edu",
-                "title": "H5P",
-                "description": "Δημιουργία διαδραστικού εκπαιδευτικού υλικού για το διαδίκτυο.",
-                "commercial_equivalent": "Articulate Storyline",
-                "url": "https://h5p.org"
-            },
-            {
-                "id": "hotpotatoes-edu",
-                "title": "Hot Potatoes",
-                "description": "Δημιουργία διαδραστικών ασκήσεων και εκπαιδευτικών δραστηριοτήτων.",
-                "commercial_equivalent": "Quizlet (Premium)",
-                "url": "https://hotpot.uvic.ca/"
-            },
-            {
-                "id": "claper-edu",
-                "title": "Claper",
-                "description": "Εργαλείο για τη δημιουργία διαδραστικών παρουσιάσεων μέσα στην τάξη, ενισχύοντας τη συμμετοχή των μαθητών.",
-                "commercial_equivalent": "Kahoot! (Presentation mode)",
-                "url": "https://claper.co/"
+                "id": "ckan-gov",
+                "title": "CKAN",
+                "description": "Η κορυφαία ανοιχτού κώδικα πλατφόρμα διαχείρισης ανοιχτών δεδομένων (Open Data Portal) για κυβερνήσεις και οργανισμούς. Δημοσίευση, κατηγοριοποίηση, αναζήτηση και οπτικοποίηση datasets — χρησιμοποιείται από δεκάδες κυβερνήσεις παγκοσμίως (data.gov, data.gov.uk κ.ά.).",
+                "commercial_equivalent": "Socrata, Εμπορικές Πύλες Ανοιχτών Δεδομένων",
+                "url": "https://ckan.org/"
             }
         ]
     },
     {
-        "id": "edu-offline-content",
-        "title": "Περιεχόμενο Χωρίς Σύνδεση (Offline)",
-        "description": "Βιβλιοθήκες και εγκυκλοπαίδειες για χρήση χωρίς internet.",
+        "id": "gov-whistleblowing",
+        "title": "Διαφάνεια & Ασφαλείς Καταγγελίες (Whistleblowing)",
+        "description": "Εργαλεία ασφαλούς υποβολής αναφορών και καταγγελιών σύμφωνα με την ευρωπαϊκή οδηγία για τους whistleblowers.",
         "subcategories": [
             {
-                "id": "kiwix-edu",
-                "title": "Kiwix",
-                "description": "Βιβλιοθήκη ψηφιακού περιεχομένου για χρήση χωρίς σύνδεση στο διαδίκτυο (offline).",
-                "commercial_equivalent": "Kortext",
-                "url": "https://www.kiwix.org"
+                "id": "globaleaks-gov",
+                "title": "GlobaLeaks",
+                "description": "Ανοιχτού κώδικα πλατφόρμα ανώνυμων καταγγελιών (whistleblowing) για οργανισμούς, δημοσιογράφους και δημόσιες υπηρεσίες. Επιτρέπει ανώνυμη υποβολή πληροφοριών μέσω Tor, με κρυπτογράφηση, ελεγχόμενη επικοινωνία με την πηγή και compliance με GDPR.",
+                "commercial_equivalent": "Navex Global, WhistleB, Εμπορικές Πλατφόρμες Whistleblowing",
+                "url": "https://www.globaleaks.org/"
+            },
+            {
+                "id": "securedrop-gov",
+                "title": "SecureDrop",
+                "description": "Πλατφόρμα ασφαλούς και ανώνυμης υποβολής πληροφοριών για δημοσιογραφικούς οργανισμούς — αναπτυγμένη από το Freedom of the Press Foundation. Λειτουργεί αποκλειστικά μέσω Tor και απομονωμένων συστημάτων (air-gapped), αποτελώντας το industry standard για προστασία πηγών δημοσιογράφων.",
+                "commercial_equivalent": "Εξειδικευμένες Πλατφόρμες Εμπιστευτικών Αναφορών",
+                "url": "https://securedrop.org/"
             }
         ]
     },
     {
-        "id": "edu-math-science",
-        "title": "Μαθηματικά & Θετικές Επιστήμες",
-        "description": "Εργαλεία γεωμετρίας, προσομοιώσεις φυσικής/χημείας και αστρονομίας.",
+        "id": "gov-communication-collab",
+        "title": "Ασφαλής Επικοινωνία & Τηλεδιασκέψεις",
+        "description": "Εσωτερική επικοινωνία, ανταλλαγή μηνυμάτων και τηλεδιασκέψεις με πλήρη έλεγχο των δεδομένων (data sovereignty).",
         "subcategories": [
             {
-                "id": "geogebra-edu",
-                "title": "GeoGebra",
-                "description": "Εργαλείο μαθηματικών, γεωμετρίας και άλγεβρας.",
-                "commercial_equivalent": "Geometer's Sketchpad",
-                "url": "https://www.geogebra.org"
+                "id": "jitsi-meet-gov",
+                "title": "Jitsi Meet",
+                "description": "Πλήρως κρυπτογραφημένη πλατφόρμα βιντεοδιάσκεψης (WebRTC) ανοιχτού κώδικα, που λειτουργεί απευθείας στον browser χωρίς λογαριασμό, εγκατάσταση ή εξωτερικές εξαρτήσεις.",
+                "commercial_equivalent": "Zoom, Cisco Webex, MS Teams",
+                "url": "https://jitsi.org/jitsi-meet/"
             },
             {
-                "id": "phet-edu",
-                "title": "PhET Simulations",
-                "description": "Διαδραστικές προσομοιώσεις φυσικής, χημείας και θετικών επιστημών.",
-                "commercial_equivalent": "Labster",
-                "url": "https://phet.colorado.edu"
+                "id": "bigbluebutton-gov",
+                "title": "BigBlueButton",
+                "description": "Ειδικά σχεδιασμένο λογισμικό εικονικής τάξης (virtual classroom) ανοιχτού κώδικα, που δίνει έμφαση στη μαθησιακή εμπειρία με εργαλεία αξιολόγησης, διαδραστικούς πίνακες και αναλυτικά στοιχεία συμμετοχής.",
+                "commercial_equivalent": "Zoom Webinars, GoToMeeting",
+                "url": "https://bigbluebutton.org/"
             },
             {
-                "id": "stellarium-edu",
-                "title": "Stellarium",
-                "description": "Προσομοίωση αστρονομίας για τη μελέτη και οπτικοποίηση ουράνιων σωμάτων.",
-                "commercial_equivalent": "Starry Night",
-                "url": "https://stellarium.org"
+                "id": "mattermost-gov",
+                "title": "Mattermost",
+                "description": "Ισχυρή, ανοιχτού κώδικα πλατφόρμα επικοινωνίας ομάδας (chat, τηλεδιάσκεψη, διαχείριση ροών εργασίας) που μπορεί να αυτο-φιλοξενηθεί, σχεδιασμένη ως εναλλακτική των Slack και Microsoft Teams.",
+                "commercial_equivalent": "Slack, Microsoft Teams",
+                "url": "https://mattermost.com"
             },
             {
-                "id": "celestia-edu",
-                "title": "Celestia",
-                "description": "Εξομοιωτής αστρονομίας για τρισδιάστατη εξερεύνηση του διαστήματος.",
-                "commercial_equivalent": "Starry Night",
-                "url": "https://celestiaproject.space/"
+                "id": "element-matrix-gov",
+                "title": "Element / Matrix",
+                "description": "Ο πιο δημοφιλής πελάτης για το δίκτυο Matrix, που προσφέρει ασφαλή επικοινωνία και συνεργασία με κρυπτογράφηση άκρου-προς-άκρο, διαθέσιμος ως web app, desktop και mobile εφαρμογή.",
+                "commercial_equivalent": "Microsoft Teams, WhatsApp Business",
+                "url": "https://element.io/"
             }
         ]
     },
     {
-        "id": "edu-higher-math",
-        "title": "Ανώτερα Μαθηματικά & Υπολογιστικά Συστήματα",
-        "description": "Εργαλεία για αριθμητικούς υπολογισμούς, άλγεβρα και προσομοιώσεις.",
+        "id": "gov-cloud-storage",
+        "title": "Ιδιωτικό Cloud & Διαμοιρασμός Αρχείων",
+        "description": "Υποδομές διαχείρισης αρχείων, ημερολογίων και επαφών εντός των δημόσιων διακομιστών.",
         "subcategories": [
             {
-                "id": "sage-edu",
-                "title": "SageMath",
-                "description": "Ένα ολοκληρωμένο μαθηματικό σύστημα ανοικτού κώδικα που ενοποιεί πολλά υπάρχοντα πακέτα (NumPy, SciPy, κ.α.) σε μια κοινή διεπαφή βασισμένη στην Python.",
-                "commercial_equivalent": "Mathematica, Magma",
-                "url": "https://www.sagemath.org/"
+                "id": "nextcloud-gov",
+                "title": "Nextcloud",
+                "description": "Ολοκληρωμένη λύση γραφείου, αποθήκευσης cloud, συγχρονισμού αρχείων, συνεργασίας και επικοινωνίας (self-hosted). Σας επιτρέπει να εγκαταστήσετε τον δικό σας cloud server (πλήρης έλεγχος δεδομένων) και να συγχρονίζετε αρχεία μεταξύ συσκευών (desktop, mobile). Περιλαμβάνει file sharing (με κωδικούς, ημερομηνία λήξης), online office (Nextcloud Office, ONLYOFFICE integration), chat (Talk), ημερολόγιο (CalDAV), επαφές (CardDAV), video calls, email (Mail), kanban boards (Deck), και πολλά plugins (300+).",
+                "commercial_equivalent": "Microsoft 365, Google Drive, Dropbox Business",
+                "url": "https://nextcloud.com"
             },
             {
-                "id": "scilab-edu",
-                "title": "SciLab",
-                "description": "Λογισμικό υψηλού επιπέδου για αριθμητικούς υπολογισμούς και προσομοιώσεις, αποτελώντας μια εξαιρετική ελεύθερη εναλλακτική για επιστημονικές εφαρμογές.",
-                "commercial_equivalent": "MATLAB",
-                "url": "https://www.scilab.org/"
-            },
-            {
-                "id": "octave-edu",
-                "title": "GNU Octave",
-                "description": "Μαθηματικές εφαρμογές, ανάλυση και οπτικοποίηση δεδομένων.",
-                "commercial_equivalent": "MATLAB",
-                "url": "https://www.gnu.org/software/octave/"
+                "id": "opencloud-gov",
+                "title": "ownCloud Infinite Scale",
+                "description": "Ευρωπαϊκή λύση διαμοιρασμού αρχείων και συνεργασίας ανοιχτού κώδικα (fork του ownCloud), που εστιάζει σε **έξυπνη διαχείριση αρχείων** (automated tagging, full-text search), συμμόρφωση με GDPR (πλήρης έλεγχος δεδομένων), και φιλική προς το χρήστη εμπειρία. Προσφέρει file sync (desktop/mobile), sharing (με κωδικό, ημερομηνία λήξης), online office (ενσωμάτωση με Collabora Online και ONLYOFFICE), WebDAV, προηγμένη αναζήτηση (tags, full-text), auditing (λεπτομερή logs), δύο παραγόντων έλεγχο (2FA), και versioning (αντιστροφή ransomware). Απευθύνεται σε επιχειρήσεις και δημόσιους οργανισμούς που απαιτούν ψηφιακή κυριαρχία (data sovereignty). Αναπτύσσεται από την Heinlein Group (Βερολίνο).",
+                "commercial_equivalent": "OneDrive for Business, Box",
+                "url": "https://opencloud.eu/en"
             }
         ]
     },
     {
-        "id": "edu-statistics-research",
-        "title": "Στατιστική & Ανάλυση Δεδομένων",
-        "description": "Εργαλεία στατιστικής ανάλυσης για έρευνα και πανεπιστήμια.",
+        "id": "gov-gis-mapping",
+        "title": "Γεωγραφικά Συστήματα (GIS) & Χαρτογραφία",
+        "description": "Επεξεργασία, ανάλυση και οπτικοποίηση γεωχωρικών δεδομένων για πολεοδομίες, δασαρχεία και οργανισμούς τοπικής αυτοδιοίκησης.",
         "subcategories": [
             {
-                "id": "r-project-edu",
-                "title": "R Project",
-                "description": "Η κοινή γλώσσα των επιστημόνων για εφαρμοσμένη στατιστική και ανάλυση δεδομένων.",
-                "commercial_equivalent": "SPSS, SAS, MPlus",
-                "url": "https://www.r-project.org"
-            },
-            {
-                "id": "jamovi-edu",
-                "title": "Jamovi",
-                "description": "Σύγχρονο περιβάλλον χρήστη για στατιστική ανάλυση βασισμένο στην R.",
-                "commercial_equivalent": "SPSS",
-                "url": "https://www.jamovi.org"
-            },
-            {
-                "id": "jasp-edu",
-                "title": "JASP",
-                "description": "Σύγχρονο περιβάλλον χρήστη για στατιστική ανάλυση βασισμένο στην R.",
-                "commercial_equivalent": "SPSS",
-                "url": "https://jasp-stats.org/"
-            },
-            {
-                "id": "pspp-edu",
-                "title": "GNU PSPP",
-                "description": "Εφαρμογή για τη στατιστική ανάλυση δειγματοληπτικών δεδομένων.",
-                "commercial_equivalent": "SPSS",
-                "url": "https://www.gnu.org/software/pspp/"
-            }
-        ]
-    },
-    {
-        "id": "edu-lms",
-        "title": "Πλατφόρμες Διαχείρισης Μάθησης (LMS)",
-        "description": "Συστήματα για ηλεκτρονική μάθηση και διαχείριση μαθήματος.",
-        "subcategories": [
-            {
-                "id": "moodle-edu",
-                "title": "Moodle",
-                "description": "Πλατφόρμα διαχείρισης μαθησιακών διαδικασιών (LMS) και εκπαιδευτικού περιεχομένου.",
-                "commercial_equivalent": "Blackboard, Canvas",
-                "url": "https://moodle.org"
-            },
-            {
-                "id": "chamilo-edu",
-                "title": "Chamilo",
-                "description": "Σύστημα διαχείρισης μάθησης (LMS) και περιεχομένου, με στόχο τη βελτίωση της πρόσβασης στην εκπαίδευση και τη γνώση παγκοσμίως.",
-                "commercial_equivalent": "Blackboard, Canvas",
-                "url": "https://chamilo.org/en/"
-            },
-            {
-                "id": "eclass-edu",
-                "title": "Open eClass",
-                "description": "Ελληνικό σύστημα διαχείρισης εκπαιδευτικού περιεχομένου.",
-                "commercial_equivalent": "Blackboard",
-                "url": "https://www.openeclass.org/"
-            },
-            {
-                "id": "efront-edu",
-                "title": "eFront",
-                "description": "Μια σύγχρονη πλατφόρμα διαχείρισης μάθησης (LMS) που εστιάζει στην ευχρηστία και την αποτελεσματική οργάνωση εκπαιδευτικού περιεχομένου.",
-                "commercial_equivalent": "Blackboard",
-                "url": "https://www.efrontlearning.com/"
-            }
-        ]
-    },
-    {
-        "id": "edu-research-publishing",
-        "title": "Ακαδημαϊκές Δημοσιεύσεις & Βιβλιογραφία",
-        "description": "Εργαλεία διαχείρισης βιβλιογραφίας, δημοσίευσης περιοδικών και τεκμηρίωσης.",
-        "subcategories": [
-            {
-                "id": "zotero-edu",
-                "title": "Zotero",
-                "description": "Διαχείριση βιβλιογραφικών παραπομπών και οργάνωση έρευνας.",
-                "commercial_equivalent": "EndNote, Mendeley",
-                "url": "https://www.zotero.org"
-            },
-            {
-                "id": "jabref-edu",
-                "title": "JabRef",
-                "description": "Εξειδικευμένος διαχειριστής βιβλιογραφίας που χρησιμοποιεί το format BibTeX.",
-                "commercial_equivalent": "EndNote",
-                "url": "https://www.jabref.org/"
-            },
-            {
-                "id": "ojs-edu",
-                "title": "OJS (Open Journal Systems)",
-                "description": "Πλατφόρμα για τη διαχείριση και δημοσίευση επιστημονικών περιοδικών.",
-                "commercial_equivalent": "ScholarOne, Editorial Manager",
-                "url": "https://pkp.sfu.ca/ojs/"
-            },
-            {
-                "id": "mediawiki-edu",
-                "title": "MediaWiki",
-                "description": "Η πλατφόρμα που τρέχει τη Wikipedia, ιδανική για τη δημιουργία γνωσιακών βάσεων.",
-                "commercial_equivalent": "Confluence",
-                "url": "https://www.mediawiki.org"
-            },
-            {
-                "id": "docusaurus-edu",
-                "title": "Docusaurus",
-                "description": "Εργαλείο για τη δόμηση και πλοήγηση σε σύνθετες δομές περιεχομένων και τεκμηρίωση.",
-                "commercial_equivalent": "GitBook",
-                "url": "https://docusaurus.io/"
-            },
-            {
-                "id": "sphinx-edu",
-                "title": "Sphinx",
-                "description": "Εργαλείο για τη δόμηση και πλοήγηση σε σύνθετες δομές περιεχομένων και τεκμηρίωση.",
-                "commercial_equivalent": "GitBook",
-                "url": "https://www.sphinx-doc.org/"
-            },
-            {
-                "id": "wiki-go-edu",
-                "title": "Wiki-Go",
-                "description": "Ένα απλό και γρήγορο σύστημα διαχείρισης γνώσης για τη δημιουργία εκπαιδευτικών wikis και οργάνωση σημειώσεων.",
-                "commercial_equivalent": "Notion (Wiki features)",
-                "url": "https://github.com/leomoon-studios/wiki-go"
-            }
-        ]
-    },
-    {
-        "id": "edu-gis",
-        "title": "Γεωχωρικά Δεδομένα (GIS)",
-        "description": "Εργαλεία για τη διαχείριση, ανάλυση και χαρτογράφηση γεωχωρικών πληροφοριών.",
-        "subcategories": [
-            {
-                "id": "qgis-edu",
+                "id": "qgis-gov",
                 "title": "QGIS",
-                "description": "Το πιο διαδεδομένο σύστημα γεωγραφικών πληροφοριών ανοικτού κώδικα.",
-                "commercial_equivalent": "ArcGIS",
+                "description": "Το πιο διαδεδομένο σύστημα γεωγραφικών πληροφοριών (GIS) ανοιχτού κώδικα. Χρησιμοποιείται για τη δημιουργία, επεξεργασία, ανάλυση και οπτικοποίηση γεωχωρικών δεδομένων. Υποστηρίζει raster (πολυφασματικές εικόνες) και vector (shp, GeoJSON, KML), χιλιάδες προβολικά συστήματα (CRS), επεξεργασία layer, χωρική ανάλυση (buffer, intersect, dissolve), παραγωγή χαρτών, και ολοκλήρωση με Python (PyQGIS) και GDAL.",
+                "commercial_equivalent": "ArcGIS (ESRI)",
                 "url": "https://www.qgis.org"
             },
             {
-                "id": "grass-gis-edu",
+                "id": "grass-gis-gov",
                 "title": "GRASS GIS",
-                "description": "Λογισμικό για διαχείριση και ανάλυση γεωχωρικών δεδομένων.",
-                "commercial_equivalent": "ArcInfo",
+                "description": "Ένα από τα παλαιότερα και πιο ισχυρά λογισμικά για διαχείριση και ανάλυση γεωχωρικών δεδομένων, ειδικά σε ακαδημαϊκό και ερευνητικό περιβάλλον (γεωμορφολογία, υδρολογία, απομακρυσμένη ανίχνευση). Υποστηρίζει raster (τρισδιάστατα δεδομένα), vector (τοπολογία), υψομετρικά μοντέλα (DEM), χωρική μοντελοποίηση, γεωστατιστική, και ανάλυση λεκανών απορροής.",
+                "commercial_equivalent": "ArcGIS Advanced, ERDAS IMAGINE",
                 "url": "https://grass.osgeo.org/"
             }
         ]
     },
     {
-        "id": "edu-ide-dev",
-        "title": "Περιβάλλοντα Ανάπτυξης (IDE) & IT",
-        "description": "Εργαλεία προγραμματισμού για σχολές πληροφορικής και ανάπτυξη εφαρμογών.",
+        "id": "gov-databases-bi",
+        "title": "Βάσεις Δεδομένων & Επιχειρησιακή Ευφυΐα (BI)",
+        "description": "Αξιόπιστη αποθήκευση κρατικών δεδομένων, δημιουργία στατιστικών αναφορών και dashboards.",
         "subcategories": [
             {
-                "id": "eclipse-edu",
-                "title": "Eclipse",
-                "description": "Ένα από τα πιο δημοφιλή και ισχυρά IDE παγκοσμίως, με τεράστιο οικοσύστημα από plugins για Java και πολλές άλλες γλώσσες προγραμματισμού.",
-                "commercial_equivalent": "Microsoft Visual Studio",
-                "url": "https://www.eclipse.org/"
+                "id": "postgresql-gov",
+                "title": "PostgreSQL",
+                "description": "Η πιο προηγμένη open-source σχεσιακή βάση δεδομένων (ORDBMS) παγκοσμίως, γνωστή για την ακρίβεια (ACID), επεκτασιμότητα, συμμόρφωση με SQL standards, και υποστήριξη για custom data types, indexing (B-tree, GiST, GIN, BRIN), full-text search, JSON/JSONB, GIS (PostGIS), και πολυ-έκδοση (MVCC). Ιδανική για εφαρμογές που απαιτούν πολύπλοκες ερωτήσεις, data warehousing, και high concurrency.",
+                "commercial_equivalent": "Oracle Database, Microsoft SQL Server",
+                "url": "https://www.postgresql.org/"
             },
             {
-                "id": "netbeans-edu",
-                "title": "NetBeans",
-                "description": "Περιβάλλον ανάπτυξης εφαρμογών, κυρίως για τη γλώσσα Java.",
-                "commercial_equivalent": "IntelliJ IDEA (Commercial)",
-                "url": "https://netbeans.apache.org/"
+                "id": "mariadb-gov",
+                "title": "MariaDB",
+                "description": "Η δεύτερη πιο διαδεδομένη open-source σχεσιακή βάση δεδομένων (RDBMS), που ξεκίνησε ως fork της MySQL το 2009, μετά την απόκτηση της MySQL από την Oracle. Στόχος της είναι να παραμείνει ελεύθερη (GPL), διατηρώντας συμβατότητα με MySQL (drop-in replacement), αλλά με προσθήκες: νέες μηχανές αποθήκευσης (Aria, ColumnStore), δυνατότερο query optimizer, και περισσότερες εκτεταμένες λειτουργίες.",
+                "commercial_equivalent": "Oracle MySQL Enterprise, Microsoft SQL Server",
+                "url": "https://mariadb.org/"
             },
             {
-                "id": "geany-edu",
-                "title": "Geany",
-                "description": "Ένας εξαιρετικά γρήγορος και ελαφρύς επεξεργαστής κειμένου με βασικές δυνατότητες IDE, ιδανικός για γρήγορες αλλαγές σε κώδικα.",
-                "commercial_equivalent": "Sublime Text",
-                "url": "https://www.geany.org/"
+                "id": "metabase-gov",
+                "title": "Metabase",
+                "description": "Εξαιρετικά εύχρηστη, open-source πλατφόρμα Business Intelligence (BI) και οπτικοποίησης δεδομένων. Επιτρέπει σε μη-τεχνικούς χρήστες (αναλυτές, managers) να δημιουργούν ερωτήματα (queries), dashboards, και να εξερευνούν δεδομένα μέσω visual query builder ή natural language (AI). Υποστηρίζει 20+ βάσεις δεδομένων (PostgreSQL, MySQL, MongoDB, Snowflake, κ.ά.).",
+                "commercial_equivalent": "Tableau, Microsoft Power BI",
+                "url": "https://www.metabase.com"
             },
             {
-                "id": "codeblocks-edu",
-                "title": "Code::Blocks",
-                "description": "Ένα εξαιρετικά παραμετροποιήσιμο και επεκτάσιμο περιβάλλον ανάπτυξης (IDE) για C, C++ και Fortran.",
-                "commercial_equivalent": "Microsoft Visual Studio",
-                "url": "https://www.codeblocks.org/"
-            },
-            {
-                "id": "dev-cpp-edu",
-                "title": "Dev-C++",
-                "description": "Ένα ελαφρύ και αποδοτικό IDE για προγραμματισμό σε C/C++.",
-                "commercial_equivalent": "Microsoft Visual Studio",
-                "url": "https://dev-cpp.com/Dev-Cpp-5/"
-            },
-            {
-                "id": "penpot-edu",
-                "title": "Penpot",
-                "description": "Πλατφόρμα σχεδιασμού και πρωτοτυποποίησης (design & prototyping) που επιτρέπει την άψογη συνεργασία μεταξύ σχεδιαστών και προγραμματιστών.",
-                "commercial_equivalent": "Figma",
-                "url": "https://penpot.app/"
-            },
-            {
-                "id": "mermaid-edu",
-                "title": "Mermaid",
-                "description": "Εργαλείο δημιουργίας διαγραμμάτων και οπτικοποίησης μέσω κώδικα (Markdown), ιδανικό για ακαδημαϊκή τεκμηρίωση.",
-                "commercial_equivalent": "Microsoft Visio",
-                "url": "https://github.com/mermaid-js"
+                "id": "superset-gov",
+                "title": "Apache Superset",
+                "description": "Σύγχρονη, enterprise-grade πλατφόρμα εξερεύνησης και οπτικοποίησης δεδομένων (Data Visualization & BI) ανοιχτού κώδικα. Ικανή να διαχειριστεί δεδομένα σε κλίμακα petabyte (μέσω υποστήριξης 60+ databases, από PostgreSQL, ClickHouse, Druid, Snowflake, BigQuery, Redshift, έως Presto/Trino). Διαθέτει πλούσιο dashboard builder, no-code explore interface, SQL IDE, semantic layer, και extensible architecture (Python).",
+                "commercial_equivalent": "Tableau Server, Looker",
+                "url": "https://superset.apache.org/"
             }
         ]
     },
     {
-        "id": "edu-engineering-arts",
-        "title": "Τέχνες, Μηχανική & 3D",
-        "description": "Επαγγελματικά εργαλεία για σχεδιασμό, μουσική, 3D μοντελοποίηση και CAD.",
+        "id": "gov-security-infrastructure",
+        "title": "Ασφάλεια Υποδομών & Δίκτυα",
+        "description": "Προστασία κρατικών δικτύων, ανίχνευση ευπαθειών και ασφαλής απομακρυσμένη διαχείριση.",
         "subcategories": [
             {
-                "id": "blender-edu",
-                "title": "Blender",
-                "description": "3D μοντελοποίηση, animation, rendering και compositing.",
-                "commercial_equivalent": "3ds Max, Maya",
-                "url": "https://www.blender.org"
+                "id": "firewalld-gov",
+                "title": "firewalld",
+                "description": "Δυναμικός διαχειριστής τείχους προστασίας (firewall) για Linux (default in Red Hat, CentOS, Fedora, SUSE). Υποστηρίζει ζώνες δικτύου (zones) που ορίζουν διαφορετικά επίπεδα εμπιστοσύνης (trust levels), επιτρέποντας την εύκολη εναλλαγή κανόνων (π.χ. 'public' vs 'home' vs 'internal'). Σε αντίθεση με το iptables (static, requires restart), το firewalld εφαρμόζει αλλαγές σε runtime χωρίς να διακόπτει υπάρχουσες συνδέσεις.",
+                "commercial_equivalent": "Εμπορικά Network Firewalls",
+                "url": "https://firewalld.org/"
             },
             {
-                "id": "freecad-edu",
-                "title": "FreeCAD",
-                "description": "3D CAD εργαλείο για αρχιτεκτονική και μηχανολογικό σχεδιασμό.",
-                "commercial_equivalent": "AutoCAD, SolidWorks",
-                "url": "https://www.freecad.org"
+                "id": "openvas-gov",
+                "title": "OpenVAS (Greenbone)",
+                "description": "Το κορυφαίο open-source πλαίσιο ανίχνευσης ευπαθειών για δίκτυα, servers, web applications, και συσκευές. Αποτελεί τον πυρήνα της λύσης Greenbone Vulnerability Management (GVM). Εκτελεί πάνω από 50.000 δοκιμές ευπαθειών (NVT - Network Vulnerability Tests), βασισμένες σε βάση δεδομένων που ενημερώνεται συχνά. Χρησιμοποιείται για compliance (PCI DSS, GDPR) και προληπτική ασφάλεια.",
+                "commercial_equivalent": "Nessus, Qualys",
+                "url": "https://www.openvas.org/"
             },
             {
-                "id": "archimedes-edu",
-                "title": "Archimedes",
-                "description": "Ένα ανοικτού κώδικα σύστημα CAD (Computer-Aided Design) ειδικά σχεδιασμένο για αρχιτεκτονική σχεδίαση.",
-                "commercial_equivalent": "AutoCAD",
-                "url": "https://www.codeplex.com/archimedes"
+                "id": "wireguard-gov",
+                "title": "WireGuard",
+                "description": "Εξαιρετικά απλό, ταχύτατο και σύγχρονο πρωτόκολλο VPN με κρυπτογραφία αιχμής.",
+                "commercial_equivalent": "Cisco AnyConnect, Check Point VPN",
+                "url": "https://www.wireguard.com/"
+            }
+        ]
+    },
+    {
+        "id": "gov-monitoring",
+        "title": "Παρακολούθηση Υποδομών & Συστημάτων (Monitoring)",
+        "description": "Συνεχής έλεγχος διαθεσιμότητας και επιδόσεων κυβερνητικών διακομιστών και ιστοτόπων.",
+        "subcategories": [
+            {
+                "id": "zabbix-gov",
+                "title": "Zabbix",
+                "description": "Enterprise-grade, open-source λύση παρακολούθησης για δίκτυα, διακομιστές (Linux, Windows, Unix), εφαρμογές, cloud υπηρεσίες (AWS, Azure), βάσεις δεδομένων, containers, και IoT συσκευές. Παρέχει αυτόματη ανακάλυψη, προηγμένες αναφορές, distributed monitoring (Zabbix proxy), web UI, και ισχυρό σύστημα ειδοποιήσεων.",
+                "commercial_equivalent": "SolarWinds, Datadog",
+                "url": "https://www.zabbix.com/"
             },
             {
-                "id": "musescore-edu",
-                "title": "MuseScore",
-                "description": "Λογισμικό για μουσική σύνθεση και σημειογραφία.",
-                "commercial_equivalent": "Sibelius, Finale",
-                "url": "https://musescore.org/"
+                "id": "checkmk-gov",
+                "title": "Checkmk",
+                "description": "Ολοκληρωμένο σύστημα παρακολούθησης υποδομών που συνδυάζει την ευελιξία του Nagios (plugins) με μια σύγχρονη web UI, αυτόματη ανακάλυψη, agent-based και agentless monitoring, distributed setup, και ενσωματωμένη γραφική παρουσίαση. Το Checkmk Raw Edition (CRE) είναι πλήρως open source.",
+                "commercial_equivalent": "Dynatrace, Nagios XI",
+                "url": "https://checkmk.com/"
             },
             {
-                "id": "hydrogen-edu",
-                "title": "Hydrogen",
-                "description": "Προηγμένη drum machine για μουσική παραγωγή.",
-                "commercial_equivalent": "DrumCore",
-                "url": "https://www.hydrogen-music.org/"
+                "id": "uptime-kuma-gov",
+                "title": "Uptime Kuma",
+                "description": "Εύχρηστο, self-hosted εργαλείο παρακολούθησης χρόνου λειτουργίας (uptime monitoring) για HTTP(s), TCP, Ping, DNS, Push, Steam Game Server, κλπ. Υποστηρίζει ειδοποιήσεις (notifications) μέσω Telegram, Discord, Slack, Email, Pushover, 90+ providers. Διαθέτει ένα όμορφο, responsive dashboard (status page) που δείχνει την τρέχουσα διαθεσιμότητα και ιστορικό (uptime history).",
+                "commercial_equivalent": "Pingdom, Statuspage",
+                "url": "https://uptimekuma.org/"
+            }
+        ]
+    },
+    {
+        "id": "gov-project-management",
+        "title": "Διαχείριση Έργων & Ροές Εργασίας",
+        "description": "Συντονισμός δημοσίων συμβάσεων, έργων ψηφιακού μετασχηματισμού και επιχειρησιακών διαδικασιών.",
+        "subcategories": [
+            {
+                "id": "openproject-gov",
+                "title": "OpenProject",
+                "description": "Η κορυφαία ανοιχτού κώδικα πλατφόρμα διαχείρισης έργων, που υποστηρίζει κλασικές, agile και υβριδικές μεθοδολογίες (Scrum, Kanban, Waterfall), με Gantt charts, boards, time tracking και on-premise εγκατάσταση.",
+                "commercial_equivalent": "Microsoft Project, Jira, Asana",
+                "url": "https://www.openproject.org/"
             },
             {
-                "id": "tuxguitar-edu",
-                "title": "TuxGuitar",
-                "description": "Επεξεργαστής και αναπαραγωγέας tablature για έγχορδα όργανα.",
-                "commercial_equivalent": "GuitarPro",
-                "url": "https://www.tuxguitar.app/"
+                "id": "camunda-gov",
+                "title": "Camunda BPMN",
+                "description": "Η κορυφαία πλατφόρμα αυτοματισμού ροών εργασίας και διαδικασιών (workflow & decision automation), βασισμένη στα πρότυπα BPMN 2.0 (Business Process Model and Notation) και DMN 1.3 (Decision Model and Notation). Χρησιμοποιείται για την ψηφιοποίηση και αυτοματοποίηση σύνθετων διοικητικών διαδικασιών, από microservices orchestration έως human task management (approvals). Η Camunda 8 προσθέτει horizontal scalability, Zeebe engine, και cloud-native deployment (Kubernetes).",
+                "commercial_equivalent": "IBM BPM, Pega",
+                "url": "https://camunda.com/"
+            }
+        ]
+    },
+    {
+        "id": "gov-civic-orgs",
+        "title": "Διοίκηση Φορέων & Οργανισμών",
+        "description": "Ολοκληρωμένα συστήματα διαχείρισης μη-κερδοσκοπικών οργανισμών, επαφών και υποθέσεων.",
+        "subcategories": [
+            {
+                "id": "civicrm-gov",
+                "title": "CiviCRM",
+                "description": "Η κορυφαία ανοιχτού κώδικα πλατφόρμα CRM ειδικά σχεδιασμένη για μη κερδοσκοπικούς οργανισμούς, ΜΚΟ, και advocacy groups. Διαχειρίζεται επαφές, δωρεές, εκδηλώσεις, συνδρομές μέλη, email campaigns, και αξιολογήσεις.",
+                "commercial_equivalent": "Blackbaud, Salesforce Non-Profit",
+                "url": "https://civicrm.org/"
             },
             {
-                "id": "audacity-edu",
-                "title": "Audacity",
-                "description": "Επαγγελματική εγγραφή και επεξεργασία ήχου.",
-                "commercial_equivalent": "Adobe Audition",
-                "url": "https://www.audacityteam.org"
+                "id": "dolibarr-gov",
+                "title": "Dolibarr",
+                "description": "Ελαφρύ, modular ERP & CRM ανοιχτού κώδικα για μικρές και μεσαίες επιχειρήσεις, freelancers, και μη κερδοσκοπικούς οργανισμούς. Διακρίνεται για την εξαιρετικά απλή εγκατάσταση (απαιτεί μόνο PHP + MySQL) και το εύχρηστο interface.",
+                "commercial_equivalent": "SAP Business One, Microsoft Dynamics",
+                "url": "https://www.dolibarr.org/"
+            }
+        ]
+    },
+    {
+        "id": "gov-os",
+        "title": "Ανεξάρτητα Λειτουργικά Συστήματα (OS)",
+        "description": "Διανομές Linux σταθερής έκδοσης για σταθμούς εργασίας και εξυπηρετητές του δημοσίου.",
+        "subcategories": [
+            {
+                "id": "debian-gov",
+                "title": "Debian GNU/Linux",
+                "description": "Η μητρική διανομή που αποτελεί τη βάση για Ubuntu, Linux Mint, Raspberry Pi OS και εκατοντάδες άλλες. Συνώνυμο αξιοπιστίας και σταθερότητας — με αυστηρά ελεγμένα packages, τρεις εκδόσεις (Stable/Testing/Unstable) και υποστήριξη για περισσότερες αρχιτεκτονικές από κάθε άλλη διανομή.",
+                "commercial_equivalent": "Windows Server, Red Hat Enterprise Linux (εμπορικό)",
+                "url": "https://debian.org/"
+            },
+            {
+                "id": "ubuntu-gov",
+                "title": "Ubuntu LTS",
+                "description": "Η πιο δημοφιλής διανομή Linux για desktop χρήση — πλήρες, δωρεάν και ασφαλές λειτουργικό σύστημα που συνδυάζει ευχρηστία, μεγάλη κοινότητα και μακροπρόθεσμη υποστήριξη (LTS). Ιδανικό για χρήστες που θέλουν να αντικαταστήσουν τα Windows ή να δώσουν νέα ζωή σε παλαιές συσκευές.",
+                "commercial_equivalent": "Microsoft Windows Enterprise",
+                "url": "https://ubuntu.com/"
+            },
+            {
+                "id": "opensuse-gov",
+                "title": "openSUSE Leap",
+                "description": "Σταθερή και ευέλικτη διανομή Linux με δύο εκδόσεις: Leap (σταθερή, βασισμένη σε SUSE Enterprise) και Tumbleweed (rolling release με τελευταίο λογισμικό). Περιλαμβάνει το YaST — ένα από τα ισχυρότερα εργαλεία διαχείρισης συστήματος — και Snapper για αυτόματα Btrfs snapshots.",
+                "commercial_equivalent": "Microsoft Windows, SUSE Linux Enterprise (εμπορικό)",
+                "url": "https://www.opensuse.org/"
             }
         ]
     }

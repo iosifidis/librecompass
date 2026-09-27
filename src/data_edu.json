@@ -176,22 +176,29 @@
                 "id": "jamovi-edu",
                 "title": "Jamovi",
                 "description": "Σύγχρονο περιβάλλον χρήστη για στατιστική ανάλυση βασισμένο στην R.",
-                "commercial_equivalent": "SPSS",
+                "commercial_equivalent": "SPSS, JASP (similar), R Commander (clunky)",
                 "url": "https://www.jamovi.org"
             },
             {
                 "id": "jasp-edu",
                 "title": "JASP",
                 "description": "Σύγχρονο περιβάλλον χρήστη για στατιστική ανάλυση βασισμένο στην R.",
-                "commercial_equivalent": "SPSS",
+                "commercial_equivalent": "SPSS, Jamovi (similar), SAS",
                 "url": "https://jasp-stats.org/"
             },
             {
                 "id": "pspp-edu",
                 "title": "GNU PSPP",
                 "description": "Εφαρμογή για τη στατιστική ανάλυση δειγματοληπτικών δεδομένων.",
-                "commercial_equivalent": "SPSS",
+                "commercial_equivalent": "SPSS, Jamovi (modern UI), R Commander (GUI)",
                 "url": "https://www.gnu.org/software/pspp/"
+            },
+            {
+                "id": "rstudio-edu",
+                "title": "RStudio (Posit)",
+                "description": "Το πιο διαδεδομένο ανοιχτού κώδικα IDE για τη γλώσσα στατιστικής R — με ενσωματωμένο script editor, R console, environment viewer, plot viewer, package manager και Markdown/Quarto integration. Χρησιμοποιείται από επιστήμονες δεδομένων, στατιστικολόγους και ερευνητές παγκοσμίως.",
+                "commercial_equivalent": "SPSS, SAS, MATLAB",
+                "url": "https://posit.co/products/open-source/rstudio/"
             }
         ]
     },
@@ -360,6 +367,13 @@
                 "description": "Εργαλείο δημιουργίας διαγραμμάτων και οπτικοποίησης μέσω κώδικα (Markdown), ιδανικό για ακαδημαϊκή τεκμηρίωση.",
                 "commercial_equivalent": "Microsoft Visio",
                 "url": "https://github.com/mermaid-js"
+            },
+            {
+                "id": "arduino-ide-edu",
+                "title": "Arduino IDE",
+                "description": "Ολοκληρωμένο περιβάλλον ανάπτυξης (IDE) για προγραμματισμό πλακετών Arduino και συμβατών μικροελεγκτών. Απλή C/C++ σύνταξη, ενσωματωμένος compiler, serial monitor, library manager και plotter — ιδανικό για εκπαίδευση, IoT projects και physical computing.",
+                "commercial_equivalent": "Εμπορικά Embedded Development Environments",
+                "url": "https://www.arduino.cc/en/software"
             }
         ]
     },

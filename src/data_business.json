@@ -115,6 +115,20 @@
                 "description": "Εξυπηρετητής τηλεφωνικών κλήσεων γραφείου βασισμένος στο πρωτόκολλο SIP για τη διαχείριση εσωτερικών δικτύων επικοινωνίας.",
                 "commercial_equivalent": "Avaya, Cisco IP PBX",
                 "url": "https://www.gnu.org/software/sipwitch/"
+            },
+            {
+                "id": "twinkle-biz",
+                "title": "Twinkle VoIP",
+                "description": "Λογισμικό VoIP για Linux με πλήρη υποστήριξη SIP πρωτοκόλλου — φωνητικές κλήσεις, βιντεοκλήσεις, instant messaging και presence μέσω τυπικών SIP/SIMPLE πρωτοκόλλων. Ιδανικό για σύνδεση με IP PBX συστήματα και VoIP παρόχους.",
+                "commercial_equivalent": "Skype, VoIP Clients",
+                "url": "https://github.com/LubosD/twinkle"
+            },
+            {
+                "id": "weechat-biz",
+                "title": "WeeChat",
+                "description": "Προηγμένος, επεκτάσιμος IRC client για terminal με υποστήριξη πολλαπλών πρωτοκόλλων μέσω plugins. Υποστηρίζει IRC, Matrix, Slack, XMPP και άλλα μέσω plugins — με πλούσια scripting API (Python, Perl, Ruby, Lua, Tcl) και δυνατότητα απομακρυσμένης χρήσης μέσω relay.",
+                "commercial_equivalent": "mIRC, Slack",
+                "url": "https://weechat.org/"
             }
         ]
     },
@@ -276,6 +290,13 @@
                 "description": "Λογισμικό αυτόματης μετάφρασης ανοικτού κώδικα που βασίζεται σε νευρωνικά δίκτυα.",
                 "commercial_equivalent": "Google Translate",
                 "url": "https://www.argosopentech.com/"
+            },
+            {
+                "id": "dokuwiki-biz",
+                "title": "DokuWiki",
+                "description": "Ελαφρύ, ευέλικτο wiki λογισμικό που δεν απαιτεί βάση δεδομένων — αποθηκεύει τα πάντα σε απλά αρχεία κειμένου. Ιδανικό για τεκμηρίωση ομάδων, εσωτερικά wikis εταιρειών, σημειώσεις έργων και εκπαιδευτικό περιεχόμενο — με απλή σύνταξη Markdown-like και πλούσιο σύστημα plugins.",
+                "commercial_equivalent": "Confluence, Notion, SharePoint",
+                "url": "https://www.dokuwiki.org/"
             }
         ]
     },
@@ -302,14 +323,14 @@
                 "id": "taiga-biz",
                 "title": "Taiga",
                 "description": "Εξειδικευμένο εργαλείο για Agile/Scrum διαχείριση έργων με έμφαση στην ευχρηστία.",
-                "commercial_equivalent": "Jira",
+                "commercial_equivalent": "Jira Software, Linear, Pivotal Tracker",
                 "url": "https://taiga.io/"
             },
             {
                 "id": "redmine-biz",
                 "title": "Redmine",
                 "description": "Ευέλικτη διαδικτυακή εφαρμογή διαχείρισης έργων, βασισμένη στο Ruby on Rails, που περιλαμβάνει παρακολούθηση σφαλμάτων και ημερολόγια.",
-                "commercial_equivalent": "Jira",
+                "commercial_equivalent": "Jira, Basecamp, Trac",
                 "url": "https://www.redmine.org/"
             },
             {
@@ -507,6 +528,13 @@
                 "description": "Εξυπηρετητής για την εκτέλεση Java Servlets και JSPs.",
                 "commercial_equivalent": "Oracle WebLogic",
                 "url": "https://tomcat.apache.org/"
+            },
+            {
+                "id": "wildfly-biz",
+                "title": "WildFly (JBoss)",
+                "description": "Ευέλικτος, modular, και lightweight application server για εφαρμογές Java Enterprise (Jakarta EE), πρώην γνωστός ως JBoss Application Server. Υλοποιεί Jakarta EE 8/10/11 profiles και MicroProfile.",
+                "commercial_equivalent": "Oracle WebLogic Server, IBM WebSphere, Payara Server (GlassFish)",
+                "url": "https://www.wildfly.org/"
             }
         ]
     },
@@ -675,6 +703,20 @@
                 "description": "Εργαλείο αποσφαλμάτωσης και ανάλυσης κώδικα.",
                 "commercial_equivalent": "Rational Purify",
                 "url": "https://valgrind.org/"
+            },
+            {
+                "id": "vscodium-biz",
+                "title": "VSCodium (VS Code Open Source)",
+                "description": "Ελαφρύς αλλά ισχυρός επεξεργαστής κώδικα με εξαιρετική υποστήριξη για debugging, Git και χιλιάδες επεκτάσεις.",
+                "commercial_equivalent": "Visual Studio, Sublime Text, Notepad++",
+                "url": "https://vscodium.com/"
+            },
+            {
+                "id": "eclipse-ide-biz",
+                "title": "Eclipse IDE",
+                "description": "Ένα από τα πιο δημοφιλή, ισχυρά και επεκτάσιμα Integrated Development Environments (IDE) παγκοσμίως, με τεράστιο οικοσύστημα plugins για Java, C/C++, Python, PHP, JavaScript, Rust, Go, και εκατοντάδες άλλες γλώσσες και frameworks.",
+                "commercial_equivalent": "Microsoft Visual Studio, IntelliJ IDEA Ultimate, NetBeans",
+                "url": "https://www.eclipse.org/"
             }
         ]
     },
@@ -869,7 +911,7 @@
                 "id": "influxdb-biz",
                 "title": "InfluxDB",
                 "description": "Βάση δεδομένων βελτιστοποιημένη για χρονοσειρές (time-series), ιδανική για αποθήκευση μετρήσεων.",
-                "commercial_equivalent": "Kdb+",
+                "commercial_equivalent": "Kdb+ (commercial, high-performance), TimescaleDB (PostgreSQL-based), Prometheus (metrics & monitoring)",
                 "url": "https://www.influxdata.com/"
             },
             {
@@ -890,7 +932,7 @@
                 "id": "questdb-biz",
                 "title": "QuestDB",
                 "description": "Βάση δεδομένων χρονοσειρών υψηλής απόδοσης, κατάλληλη για επεξεργασία μεγάλου όγκου δεδομένων σε πραγματικό χρόνο.",
-                "commercial_equivalent": "Kdb+",
+                "commercial_equivalent": "InfluxDB (performance focused), ClickHouse (analytics), Kdb+ (commercial, low-latency)",
                 "url": "https://questdb.io/"
             }
         ]
@@ -948,6 +990,13 @@
                 "description": "Ανάλυση δεδομένων με Python/R για επιστημονική προσέγγιση.",
                 "commercial_equivalent": "MATLAB",
                 "url": "https://jupyter.org"
+            },
+            {
+                "id": "grafana-biz",
+                "title": "Grafana",
+                "description": "Η κορυφαία πλατφόρμα οπτικοποίησης και monitoring ανοιχτού κώδικα. Δημιουργία dashboards από δεδομένα οποιαδήποτε πηγής (Prometheus, InfluxDB, PostgreSQL, Elasticsearch, CloudWatch κ.ά.) με εκατοντάδες τύπους γραφημάτων, alerting και annotation — χρησιμοποιείται από Netflix, Uber, Booking.com.",
+                "commercial_equivalent": "Datadog, Splunk, New Relic",
+                "url": "https://grafana.com/"
             }
         ]
     },
@@ -1039,6 +1088,20 @@
                 "description": "Ένα ισχυρό modular πλαίσιο OSINT (Open Source Intelligence).",
                 "commercial_equivalent": "Maltego",
                 "url": "https://github.com/saeeddhqan/Maryam"
+            },
+            {
+                "id": "gatus-biz",
+                "title": "Gatus",
+                "description": "Ένα ελαφρύ, εξαιρετικά παραμετροποιήσιμο εργαλείο υγείας και παρακολούθησης (health dashboard) σχεδιασμένο για developers. Χρησιμοποιεί YAML configuration για δηλωτική παρακολούθηση (GitOps) και υποστηρίζει advanced health checks (HTTP, ICMP, TCP, DNS, gRPC, WebSocket, SSH) με custom conditions (JSON path, certificate expiry, response time). Διαθέτει built-in status page, alerts (Slack, Discord, PagerDuty, Teams, Webhook, κ.ά.), και μηδενική εξάρτηση από database (SQLite).",
+                "commercial_equivalent": "Uptime Kuma (UI-focused), Better Stack (commercial), Prometheus + Blackbox Exporter (heavy stack), Pingdom (commercial)",
+                "url": "https://github.com/TwiN/gatus"
+            },
+            {
+                "id": "owasp-maryam-biz",
+                "title": "OWASP Maryam",
+                "description": "Ισχυρό, modular πλαίσιο OSINT (Open Source Intelligence) ανοιχτού κώδικα, βασισμένο στο OWASP project. Συλλέγει πληροφορίες από δημόσιες πηγές (search engines, social media, DNS records, whois, web archives, κλπ.) για έναν στόχο (domain, email, person). Χρησιμοποιείται από security researchers, penetration testers, και investigative journalists για την συλλογή ψηφιακών αποτυπωμάτων (digital footprints) χωρίς να καλεί APIs (όπου είναι δυνατόν).",
+                "commercial_equivalent": "Maltego (commercial), theHarvester (OSINT), Recon-ng (OSINT)",
+                "url": "https://github.com/saeeddhqan/Maryam"
             }
         ]
     },
@@ -1114,7 +1177,7 @@
                 "id": "putty-biz",
                 "title": "Putty",
                 "description": "Ο κλασικός και ελαφρύς client για συνδέσεις SSH και Telnet.",
-                "commercial_equivalent": "ISSH",
+                "commercial_equivalent": "OpenSSH (Linux/macOS built-in), MobaXterm (Windows, commercial features), Windows SSH (built-in, modern)",
                 "url": "https://www.chiark.greenend.org.uk/~sgtatham/putty/"
             },
             {
@@ -1186,6 +1249,20 @@
                 "description": "Μια ανοικτή πλατφόρμα IoT για τη συλλογή, επεξεργασία, οπτικοποίηση δεδομένων και τη διαχείριση συσκευών σε κλίμακα.",
                 "commercial_equivalent": "Datadog (IoT module)",
                 "url": "https://thingsboard.io/"
+            },
+            {
+                "id": "leon-ai-biz",
+                "title": "Leon AI",
+                "description": "Ανοιχτού κώδικα προσωπικός βοηθός (virtual assistant) που εκτελείται τοπικά στον server σας — χωρίς cloud, χωρίς κοινοποίηση δεδομένων. Κατανοεί φυσική γλώσσα, εκτελεί tasks μέσω modules (web scraping, email, todo lists, music, IoT) και υποστηρίζει φωνητικές εντολές.",
+                "commercial_equivalent": "Amazon Alexa, Google Assistant, Apple Siri",
+                "url": "https://getleon.ai/"
+            },
+            {
+                "id": "mycroft-ai-biz",
+                "title": "Mycroft AI",
+                "description": "Ανοιχτού κώδικα φωνητικός εικονικός βοηθός που σέβεται την ιδιωτικότητα — εναλλακτική λύση στο Amazon Alexa και Google Assistant. Τρέχει σε Linux, Raspberry Pi και Mark II dedicated device, με ανοιχτά voice models, skills ecosystem και δυνατότητα πλήρους local execution.",
+                "commercial_equivalent": "Amazon Alexa, Google Assistant, Apple Siri",
+                "url": "https://mycroft.ai/"
             }
         ]
     },
