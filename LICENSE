@@ -1,0 +1,75 @@
+# LibreHub.gr — Dual License
+
+This project uses **two separate licenses** depending on the type of content:
+
+---
+
+## 1. Source Code — GNU Affero General Public License v3.0 (AGPL-3.0)
+
+Applies to all source code files, including but not limited to:
+- `src/components/` — Astro components
+- `src/layouts/`    — Page layouts
+- `src/pages/`      — Page routes
+- `src/styles/`     — CSS stylesheets
+- `src/utils/`      — Utility scripts
+- Configuration files (`astro.config.mjs`, `tsconfig.json`, etc.)
+
+Copyright (C) 2024–present Efstathios Iosifidis
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+Full license text: https://www.gnu.org/licenses/agpl-3.0.html
+
+---
+
+## 2. Content — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Applies to all content files, including but not limited to:
+- `src/content/`    — Software entries (Markdown files)
+- `public/images/`  — Images and logos
+- All written descriptions, translations, and editorial content
+
+Copyright (C) 2024–present Efstathios Iosifidis
+
+This content is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+You are free to:
+  - **Share** — copy and redistribute the material in any medium or format
+  - **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+  - **Attribution** — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - **NonCommercial** — You may not use the material for commercial purposes.
+  - **ShareAlike** — If you remix, transform, or build upon the material, you
+    must distribute your contributions under the same license as the original.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+---
+
+## Summary
+
+| Component       | License        | SPDX Identifier        |
+|-----------------|----------------|------------------------|
+| Source Code     | AGPL-3.0       | `AGPL-3.0-only`        |
+| Content & Media | CC BY-NC-SA 4.0| `CC-BY-NC-SA-4.0`      |
+
+---
+
+For questions about licensing, contact: eiosifidis [at] gmail [dot] com

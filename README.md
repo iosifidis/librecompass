@@ -75,3 +75,9 @@ docker run -p 8080:80 librecompass
 
 Μέρος του ανοικτού οικοσυστήματος **LibreHub**.
 
+---
+
+## 📄 Άδεια
+
+Το περιεχόμενο διατίθεται υπό [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+Ο κώδικας διατίθεται υπό [MIT License](LICENSE).
