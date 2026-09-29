@@ -79,5 +79,5 @@ docker run -p 8080:80 librecompass
 
 ## 📄 Άδεια
 
-Το περιεχόμενο διατίθεται υπό [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
-Ο κώδικας διατίθεται υπό [MIT License](LICENSE).
+Το περιεχόμενο διατίθεται υπό [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Ο κώδικας διατίθεται υπό [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html).
